@@ -1,0 +1,31 @@
+{
+    "name": "notes-app",
+    "version": "1.0.0",
+    "description": "A Notes App using webpack and Fetch API",
+    "main": "index.js",
+    "scripts": {
+        "start-dev": "webpack serve --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "keywords": [
+        "notes",
+        "app",
+        "webpack",
+        "fetch-api"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/preset-env": "^7.24.4",
+        "css-loader": "^6.11.0",
+        "html-webpack-plugin": "^5.6.0",
+        "style-loader": "^3.3.4",
+        "webpack": "^5.91.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.15.2",
+        "webpack-merge": "^5.10.0"
+    },
+    "dependencies": {
+        "babel-loader": "^9.1.3"
+    }
+}
